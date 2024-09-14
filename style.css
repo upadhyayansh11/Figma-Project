@@ -104,6 +104,7 @@ body {
   font-family: sans-serif;
   font-size: medium;
   opacity: 0.7;
+  font-weight: 200;
 }
 
 .buttons {
@@ -220,9 +221,7 @@ body {
 .head {
   font-family: "Orbitron", sans-serif;
 }
-.para3 {
-  font-weight: 100;
-}
+
 .custom-line {
   width: 40%;
   font-size: small;
@@ -270,4 +269,153 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+.clients {
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+  text-align: center;
+  align-items: center;
+  width: 701px;
+  height: 245px;
+  top: 969px;
+  left: 74px;
+  gap: 0px;
+  border-radius: 7.35px 0px 0px 0px;
+  border: 1.07px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #aa14f0 -42.58%,
+    rgba(170, 20, 240, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(185, 54, 245, 0) 100%
+  );
+}
+
+.heading3 {
+  position: relative;
+  top: 50px;
+  font-weight: 900;
+  font-family: "Orbitron", sans-serif;
+}
+
+.para3 {
+  position: relative;
+  margin: 3.5rem;
+  align-items: center;
+  margin-top: 1rem;
+  color: white;
+  width: 314.41px;
+  height: 45px;
+  left: 140px;
+  top: 50px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: medium;
+  opacity: 0.7;
+  font-weight: 200;
+}
+
+.reviews {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.review {
+  position: relative;
+  font-size: 4px;
+  bottom: 90px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+}
+
+.values {
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+.heading4 {
+  font-weight: 900;
+  font-family: "Orbitron", sans-serif;
+}
+.para4 {
+  opacity: 0.7;
+  font-weight: 200;
+}
+.stamps {
+  position: relative;
+  bottom: 150px;
+  left: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.para5 {
+  font-size: xx-small;
+}
+.explore {
+  /* margin-top: 1rem; */
+  margin-left: 0.5rem;
+  width: 1000px;
+  height: 249px;
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #aa14f0 -42.58%,
+    rgba(170, 20, 240, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(185, 54, 245, 0) 100%
+  );
+}
+.heading5 {
+  position: relative;
+  top: 50px;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  font-weight: 900;
+  font-family: "Orbitron", sans-serif;
+}
+.para6 {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  opacity: 0.7;
+  font-weight: 200;
+  font-size: small;
+}
+.email {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  display: flex;
+}
+
+.start {
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.em {
+  position: relative;
+  font-weight: 100;
+  font-size: smaller;
+  right: 120px;
+  top: 10px;
+}
+.hands {
+  position: relative;
+  bottom: 200px;
+  left: 630px;
 }
